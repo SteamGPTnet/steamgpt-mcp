@@ -1,0 +1,17 @@
+{
+    "name": "steamgpt-mcp",
+    "version": "1.0.1",
+    "description": "MCP server for Steam data: profiles, SteamID conversion, VAC and game bans, FACEIT stats, friends. Free remote server at steamgpt.net; this package is a stdio proxy for clients without native Streamable HTTP support.",
+    "keywords": [ "mcp", "mcp-server", "modelcontextprotocol", "steam", "steam-api", "steamid", "steamid64", "vac", "faceit", "ai-agents" ],
+    "homepage": "https://steamgpt.net/ai",
+    "repository": { "type": "git", "url": "git+https://github.com/SteamGPTnet/steamgpt-mcp.git" },
+    "bugs": { "url": "https://github.com/SteamGPTnet/steamgpt-mcp/issues" },
+    "license": "MIT",
+    "author": "SteamGPT (https://steamgpt.net)",
+    "mcpName": "net.steamgpt/steamgpt",
+    "type": "module",
+    "scripts": { "test": "node test.mjs" },
+    "bin": { "steamgpt-mcp": "bin/steamgpt-mcp.js" },
+    "files": [ "bin", "README.md", "LICENSE", "llms-install.md" ],
+    "engines": { "node": ">=18" }
+}
