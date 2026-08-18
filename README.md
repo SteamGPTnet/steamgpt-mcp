@@ -2,7 +2,9 @@
 
 MCP server for Steam data, backed by [steamgpt.net](https://steamgpt.net) - a free Steam data API for AI agents. Steam profiles, SteamID conversion, VAC / game / community / trade bans, FACEIT stats, public friend graph, batch lookups and player comparison. No API key, no registration, no tracking.
 
-Registry name: `net.steamgpt/steamgpt` ([official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=net.steamgpt)).
+Registry name: `net.steamgpt/steamgpt` ([official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/net.steamgpt%2Fsteamgpt/versions/latest)).
+
+[![SteamGPT MCP server](https://glama.ai/mcp/servers/q1y6yl24ol/badges/score.svg)](https://glama.ai/mcp/servers/SteamGPTnet/steamgpt-mcp)
 
 ## Quick start
 
